@@ -1,0 +1,5 @@
+{
+  "name": "ChainSentryAI",
+  "description": "An AI-powered auditor for Ethereum (Solidity) and Solana (Rust) smart contracts. It provides in-depth vulnerability analysis, severity scoring, and auto-fix suggestions to enhance blockchain security.",
+  "requestFramePermissions": []
+}
