@@ -2,8 +2,6 @@
 
 **ChainSentryAI** is a modern, web-based security auditing tool that leverages the power of Google's Gemini API to perform deep, static analysis of smart contracts. It provides developers with a fast, intuitive, and powerful way to identify potential vulnerabilities, understand their impact, and receive actionable recommendations for fixes.
 
-
-
 ## ✨ Key Features
 
 -   **Multi-Blockchain Support:** Audit smart contracts for both **Ethereum (Solidity)** and **Solana (Rust)**.
@@ -17,6 +15,16 @@
 -   **PDF Export:** Download a professional, shareable PDF of the full audit report with a single click.
 -   **Responsive UI:** A clean, modern, and fully responsive interface built with React and Tailwind CSS.
 
+## 🖼️ Screenshots / Demo
+
+### Audit in Progress (Loading State)
+
+![Audit in Progress](screenshots/ss_audit_in_process.png)
+
+### Audit Report Showcase
+
+![Audit Report](screenshots/ss_audit_report.png)
+
 ## 🚀 How It Works
 
 ChainSentryAI streamlines the auditing process by combining a sophisticated frontend with a powerful AI backend.
@@ -26,14 +34,6 @@ ChainSentryAI streamlines the auditing process by combining a sophisticated fron
 3.  **Structured API Call:** A request is sent to the Gemini API, specifying a strict JSON schema for the response. This ensures the data is consistent, reliable, and easy to parse.
 4.  **Report Generation:** The AI's JSON response, containing an array of vulnerabilities, is parsed and used to dynamically render a comprehensive and interactive report in the UI.
 5.  **Export:** The final report, rendered in the DOM, can be converted into a high-resolution PDF using `html2canvas` and `jsPDF`.
-
-### 🖼️ Screenshots / Demo
-
-- **Audit in Progress (Loading State)**  
-  ![Audit in Progress](screenshots/ss_audit_in_process.png)
-
-- **Audit Report Showcase**  
-  ![Audit Report](screenshots/ss_audit_report.png)
 
 ## 📂 Codebase Structure
 
